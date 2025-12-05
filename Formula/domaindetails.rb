@@ -1,26 +1,26 @@
 class Domaindetails < Formula
   desc "Domain RDAP and WHOIS lookup CLI tool"
   homepage "https://domaindetails.com"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.0/domaindetails-1.0.0-darwin-arm64.tar.gz"
-      sha256 "54a9a54942f64cba9b57e027eea764b2e779f549d1d82d047cb7ecff5bc073f4"
+      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.1/domaindetails-1.0.1-darwin-arm64.tar.gz"
+      sha256 "aad0370a257b78a3fb76ed076df7b066c3f73ef3d74b8d10e888742d7c33dd57"
     else
-      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.0/domaindetails-1.0.0-darwin-amd64.tar.gz"
-      sha256 "bed48ea7e66f21abb9146559b41667591feea13b2d9fc762657b2518e8f615ac"
+      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.1/domaindetails-1.0.1-darwin-amd64.tar.gz"
+      sha256 "eb134426e2861d04491e96317479d7af63bf558dc249a10f5d7e185a8bd6a1cf"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.0/domaindetails-1.0.0-linux-arm64.tar.gz"
-      sha256 "71d7266f7b172282128a4fd113373c54a1d2ce29e00bfd1f7c6d4cb519dd77a3"
+      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.1/domaindetails-1.0.1-linux-arm64.tar.gz"
+      sha256 "9d93eb2d5bcb35f5209afd482abb08086ef9a2e666fa58ca0824c3bfe4aca314"
     else
-      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.0/domaindetails-1.0.0-linux-amd64.tar.gz"
-      sha256 "ea0a7a2971d9b75f5cd976e7693f9477e724bdf0755a6417592b7b84114b62c0"
+      url "https://github.com/simplebytes-com/domaindetails-cli/releases/download/v1.0.1/domaindetails-1.0.1-linux-amd64.tar.gz"
+      sha256 "4d551dd9b12853c4fe42bf78359fb06d7524e4092f9369706a9b8d12611f0d16"
     end
   end
 
